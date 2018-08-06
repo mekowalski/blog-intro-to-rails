@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   get 'welcome/index'
 
+  resources :articles
+  # ruby method being called
+
   root'welcome#index'
   # tells rails to go to welcome controller and index action
 
