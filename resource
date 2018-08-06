@@ -5,3 +5,11 @@ RESOURCE
   -to declare standard REST resource
   -URI patterns with controller#action, although didn't create, only does routing
   -willing and able to take routes, HTTP verbs, sends them to the correct controller#action
+
+RUBY HAD 3 TYPES OF METHODS
+PUBLIC
+  -only public methods can be actions for controllers
+
+PRIVATE
+
+PROTECTED
