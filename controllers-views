@@ -16,3 +16,6 @@ VIEWS
 RAILS GENERATE
   -rails comes with a ton of useful/helpful generators
   -helps create controllers, models, etc
+
+CONVENTION OVER CONFIGURATION
+  -If there is a 'Welcome' controller, Rails will automatically look in views for a welcome view
