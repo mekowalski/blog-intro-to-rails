@@ -43,3 +43,6 @@ GEMFILE/GEMFILE.LOCK
 PACKAGE.JSON
   -newer in rails application
   -for javascript things
+
+RAKEFILE
+  -locates and loads tasks that can be run in command line
