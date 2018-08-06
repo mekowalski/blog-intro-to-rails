@@ -1,0 +1,45 @@
+APP
+  -this is where the focus of most of the rails app work is contained
+
+BIN
+  -contains rails script to start the app
+  -may contain other scripts to setup, update, deploy or run the application
+
+CONFIG
+  -configure app's routes, databases, etc
+  *config.ru: Rack configuration, used to start app on rails*
+
+DB
+  -contains database schema and migrations
+
+LIB/VENDER
+  -extended modules or applications
+  -external libraries
+  -don't work with LIB too much
+  -lib/vendor do similar tasks
+  -VENDOR is supposed to hold 3rd party code, vendor gems
+
+LOG
+  -log files
+
+PUBLIC
+  -only folder seen by the world AS IS
+  -static files and compiled assets
+
+TEST
+  -contains tests files, unit tests, fixtures, test apparatus
+  -stubs out basic folders based on structure of app to keep app in line
+
+TMP
+  -temporary files
+
+.GITIGNORE
+  -tells which files to ignore
+
+GEMFILE/GEMFILE.LOCK
+  -gemfile tells what the gem dependencies by rails application
+  -gemfile.lock tells exact versions of all those files installed in gemfile
+
+PACKAGE.JSON
+  -newer in rails application
+  -for javascript things
