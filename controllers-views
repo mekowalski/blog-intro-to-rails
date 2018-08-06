@@ -1,0 +1,18 @@
+CONTROLLER
+  -receive specific requests for the application
+  -routing decides which controller receives which requests
+  -often more than 1 route to each controller
+  -different routes can be served by different action
+  -actions collect info to provide it to a view
+  -controllers and routes work closely together
+  -controller sits in the middle and controls the data flow back and forth between models and views
+
+VIEWS
+  -displays information in readable format, seen web page
+  -controller not view, where info is collected
+  -view just displays the info
+  -view templates written in ERB(embedded Ruby), can use Ruby and HTML in views
+
+RAILS GENERATE
+  -rails comes with a ton of useful/helpful generators
+  -helps create controllers, models, etc
